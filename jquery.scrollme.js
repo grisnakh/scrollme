@@ -318,6 +318,7 @@ var scrollme = ( function( $ )
                 effect.element.css(
                     {
                         'opacity' : opacity,
+                        'will-change' : 'transform',
                         // 'transform' : 'translate3d( '+translatex+'px , '+translatey+'px , '+translatez+'px ) rotateX( '+rotatex+'deg ) rotateY( '+rotatey+'deg ) rotateZ( '+rotatez+'deg ) scale3d( '+scalex+' , '+scaley+' , '+scalez+' )'
                         'transform' : 'translate3d( '+translatex+', '+translatey+', '+translatez+') rotateX( '+rotatex+') rotateY( '+rotatey+') rotateZ( '+rotatez+') scale3d( '+scalex+' , '+scaley+' , '+scalez+' )'
                     } );
